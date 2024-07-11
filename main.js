@@ -40,3 +40,14 @@ getLatestNews()
 for (let i = 0; i < 5; i++) {
     console.log("after", i);
 }
+
+const openSearchBox = () => {
+    let inputArea = document.getElementById("input-area");
+    if (inputArea.style.display === "inline") {
+        inputArea.style.display = "none";
+    } else {
+        inputArea.style.display = "inline";
+    }
+};
+
+
